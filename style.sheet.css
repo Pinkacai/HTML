@@ -1,0 +1,43 @@
+style,
+div.container {
+    color:darksalmon;
+    text-align: center;
+}
+ul.MyUL {
+    color:darksalmon;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.first{
+    font-style: italic;
+}
+.second{
+    font-family: sans-serif;
+}
+.third{
+    font-weight: bold;
+}
+.fourth{
+    font-size: 8px;
+
+}
+p,h1 {
+    color:antiquewhite;
+    text-align: center;
+    text-shadow: 6px 4px 4px turquoise,
+    3px 5px 2px red;
+    font-family: Gidole,sans-serif;
+
+}
+a:hover {
+  color: hotpink;
+}
+body {background-color: black;}
+
+
+
+style>
+
+
+
