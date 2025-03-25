@@ -38,7 +38,6 @@ nav {
     width: 50%;
     padding:1rem;
 }
-
 li a {
     background-color: coral;
     text-decoration: none;
@@ -62,15 +61,53 @@ ul {
 main {
     padding: 1rem;
 }
-
-figure {
-    width: 60%;
-    border: 3px black solid;
+section {
+    width: 80%;
+    display: flex;
     margin:auto;
+    padding:6rem;
+    justify-content: space-evenly;
+}
+article {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: darksalmon;
+    border: 2px black solid;
 
+
+}
+article p {
+    width: 100%;
+    margin:auto;
+    text-align: center;
+
+}
+h2 {
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid black;
+}
+figure img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
 }
 figcaption {
     padding:1rem;
+    text-align: left;
+    font-size: 70%;
 }
 
 footer{
@@ -80,6 +117,3 @@ footer{
 
 
 style>
-
-
-
