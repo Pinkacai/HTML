@@ -1,7 +1,7 @@
 style,
 
 html {
-  font-family: "Playfair Display", serif;
+  font-family: "Agency FB", serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
@@ -62,11 +62,13 @@ main {
     padding: 1rem;
 }
 section {
-    width: 80%;
-    display: flex;
-    margin:auto;
-    padding:6rem;
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+    padding:6rem 0 6rem 0;
     justify-content: space-evenly;
+
+
 }
 article {
     width: 30%;
@@ -106,13 +108,16 @@ figure img {
 }
 figcaption {
     padding:1rem;
-    text-align: left;
+    text-align: -moz-left;
     font-size: 70%;
 }
-
+figure p {
+    text-align: center;
+    justify-content: center;
+}
 footer{
     background-color: chocolate;
-    padding:1rem;
+    padding:3rem;
 }
 
 
