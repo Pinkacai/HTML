@@ -10,35 +10,37 @@ html {
 
 
 body {
-    background: repeating-linear-gradient(-45deg, #389 0px, #000 5px, #338 6px, #002 11px, #000 12px);
+    background-image: linear-gradient(-45deg, orangered 0%, pink 25%, turquoise 51%, #ff357f 100%);
+    opacity: 1;
     margin:0;
 
 }
 .Container{
     width: 80vw;
     margin: auto;
-    background-color: burlywood;
+    background-color: burlywood ;
 }
 
 header {
     display:flex;
     background-color: rgba(241, 169, 79, 0.85);
     padding: 0;
+
 }
 h1 {
-    width: 50%;
+    width: 80%;
     text-align: left;
     display: block;
     line-height: 3rem;
     padding:1rem;
 
-
 }
 nav {
-    width: 50%;
+    width: 100%;
     padding:1rem;
+
 }
-li a {
+li a.first {
     background-color: coral;
     text-decoration: none;
     display: block;
@@ -46,8 +48,38 @@ li a {
     line-height: 3rem;
     text-align: center;
     border: 3px black solid;
-    padding: 2px;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    color:black;
+    font-size: 2rem;
 
+}
+li a.third {
+    background-color: coral;
+    text-decoration: none;
+    display: block;
+    width: 12rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 3px black solid;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    color:black;
+    font-size: 2rem;
+
+}
+li a.second {
+    background-color: coral;
+    text-decoration: none;
+    display: block;
+    width: 12rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 3px black solid;
+    border-right: 0 black solid;
+    border-left: 0 black solid;
+    color:black;
+    font-size: 2rem;
 }
 li a:hover {
     background-color: hotpink;
@@ -85,12 +117,18 @@ article p {
     width: 100%;
     margin:auto;
     text-align: center;
+    padding: 1rem 0 0 0;
+    font-size: 160%;
 
+}
+.name {
+    font-size: 2rem;
 }
 h2 {
     width: 100%;
     margin:auto;
     text-align: center;
+    font-size: 2rem;
 }
 figure {
     display: flex;
@@ -99,6 +137,7 @@ figure {
     width: 100%;
     max-width: 300px;
     border: 2px solid black;
+    justify-content: center;
 }
 figure img {
     width: 300px;
@@ -107,13 +146,16 @@ figure img {
     border: 2px solid black;
 }
 figcaption {
-    padding:1rem;
-    text-align: -moz-left;
-    font-size: 70%;
+    font-size: 1.2rem;
+    text-align: left;
 }
-figure p {
+article p {
     text-align: center;
     justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 footer{
     background-color: chocolate;
