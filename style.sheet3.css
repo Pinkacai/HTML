@@ -10,7 +10,7 @@ html {
 
 
 body {
-    background-image: linear-gradient(-45deg, orangered 0%, pink 25%, turquoise 51%, #ff357f 100%);
+    background-image: url("https://wallpaperaccess.com/full/5687496.gif") ;
     opacity: 1;
     margin:0;
 
@@ -18,12 +18,13 @@ body {
 .Container{
     width: 80vw;
     margin: auto;
-    background-color: burlywood;
+    background-image: linear-gradient(-45deg, #f66834 0%, pink 25%, turquoise 51%, #ff357f 100%);
+    opacity: 0.8;
 }
 
 header {
     display:flex;
-    background-color: rgba(241, 169, 79, 0.85);
+    background-image: url("https://wallpaperaccess.com/full/1781502.jpg");
     padding: 0;
 }
 h1 {
@@ -91,21 +92,37 @@ ul {
 }
 
 main {
-    padding: 1rem;
+    display: flex;
+
+}
+
+article {
+    flex: 1;
 }
 
 figure {
-    width: 60%;
-    border: 3px black solid;
-    margin:auto;
-
+    width: 40rem;
+    margin-left: auto;
+    padding-bottom: 4rem;
+    display: flex;
 }
-figcaption {
-    padding:1rem;
+
+aside {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+h2 {
+    width: 100%;
+    margin:auto;
+    text-align: left;
+    font-size: 2rem;
+    display: inline-flex;
+    padding: 2rem;
 }
 
 footer{
-    background-color: chocolate;
+    background-image:url("https://wallpaperaccess.com/full/1781502.jpg");
     padding:3rem;
 }
 

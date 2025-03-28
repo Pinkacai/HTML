@@ -10,7 +10,7 @@ html {
 
 
 body {
-    background-image: linear-gradient(-45deg, orangered 0%, pink 25%, turquoise 51%, #ff357f 100%);
+    background-image: url("https://wallpaperaccess.com/full/5687496.gif") ;
     opacity: 1;
     margin:0;
 
@@ -18,12 +18,13 @@ body {
 .Container{
     width: 80vw;
     margin: auto;
-    background-color: burlywood ;
+    background-image: linear-gradient(-45deg, #f66834 0%, pink 25%, turquoise 51%, #ff357f 100%);
+    opacity: 0.8;
 }
 
 header {
     display:flex;
-    background-color: rgba(241, 169, 79, 0.85);
+    background-image:url("https://wallpaperaccess.com/full/1781502.jpg");
     padding: 0;
 
 }
@@ -108,8 +109,9 @@ article {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: darksalmon;
+    background-image:url("https://wallpaperaccess.com/full/1781502.jpg");
     border: 2px black solid;
+    opacity: 0.9;
 
 
 }
@@ -158,7 +160,7 @@ article p {
     font-size: 1.5rem;
 }
 footer{
-    background-color: chocolate;
+    background-image:url("https://wallpaperaccess.com/full/1781502.jpg");
     padding:3rem;
 }
 
