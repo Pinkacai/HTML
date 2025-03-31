@@ -27,17 +27,18 @@ header {
     padding: 0;
 }
 h1 {
-    width: 50%;
+    width: 60vw;
+    height: auto;
     text-align: left;
     display: block;
-    line-height: 3rem;
-    padding:1rem;
-
+    padding-left: 1rem;
+    padding-top: 1rem;
 
 }
 nav {
     width: 50%;
     padding:1rem;
+    align-content: center;
 }
 
 li a.first {
@@ -97,12 +98,12 @@ main {
 
 figure {
     width: 60%;
-    border: 3px black solid;
     margin:auto;
 
+
 }
-figcaption {
-    padding:1rem;
+.center {
+    width:100%
 }
 .first1 {
     font-size: 2rem;
