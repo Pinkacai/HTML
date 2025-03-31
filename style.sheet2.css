@@ -10,7 +10,7 @@ html {
 
 
 body {
-    background-image: url("https://wallpaperaccess.com/full/5687496.gif") ;
+    background-image: url("https://wallpaperaccess.com/full/869.jpg") ;
     opacity: 1;
     margin:0;
 
@@ -19,7 +19,7 @@ body {
     width: 80vw;
     margin: auto;
     background-image: linear-gradient(-45deg, #f66834 0%, pink 25%, turquoise 51%, #ff357f 100%);
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 header {
@@ -111,7 +111,7 @@ article {
     text-align: center;
     background-image:url("https://wallpaperaccess.com/full/1781502.jpg");
     border: 2px black solid;
-    opacity: 0.9;
+    opacity: 2;
 
 
 }
@@ -149,7 +149,8 @@ figure img {
 }
 figcaption {
     font-size: 1.2rem;
-    text-align: left;
+    text-align: center;
+    padding: 1rem;
 }
 article p {
     text-align: center;
